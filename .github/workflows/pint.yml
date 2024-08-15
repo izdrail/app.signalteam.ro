@@ -16,9 +16,3 @@ jobs:
                 php-version: '8.2'
             - name: Install dependencies
               run: composer install --no-interaction
-            - name: Run Pint
-              run: ./vendor/bin/pint
-            - name: Commit changes
-              uses: stefanzweifel/git-auto-commit-action@v4
-              with:
-                  commit_message: Fix styling
