@@ -1,0 +1,17 @@
+# CodeSync won't sync the files in the .syncignore. It follows same format as .gitignore.
+/node_modules
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
